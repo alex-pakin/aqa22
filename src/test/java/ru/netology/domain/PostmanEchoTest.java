@@ -36,7 +36,7 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Как тебе такое, Дмитрий Рогозин?"));
+                .body("data", equalTo("Как тебе такое, Илон Маск?"));
 
     }
 }
